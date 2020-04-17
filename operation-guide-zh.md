@@ -1,4 +1,4 @@
-# 赏金项目
+# aelf DAO赏金项目
 为提高aelf主网生态的活跃度，鼓励用户参与aelf生态的建设，aelf DAO将为社区用户提供投资项目、赏金项目两种参与方式：
 
 * [投资项目](https://github.com/DAO-Testnet/Grants)：如果社区用户有好的开发项目为aelf做贡献，可申请投资项目，aelf DAO管理委员会将提供资金和资源帮助，加速项目开发进程；
@@ -9,21 +9,19 @@
 ## （1）aelf DAO管理委员会介绍
 aelf DAO管理委员会是由生产节点选出意向成员成立的链上DAO管理委员会；aelf DAO管理委员会通过去中心化治理，为aelf社区的开发者提供资金支持，解决生态系统开源项目中的公共问题。
 
-## （2）资金规划
+## （2）aelf DAO资金规划
 由aelf DAO管理委员会和意愿投资人自行决定赏金金额和发放规则。
 
-## （3）用户操作流程
+## （3）aelf DAO用户操作流程
 流程概述：
 
-![图片](https://uploader.shimo.im/f/zXN5rx296fEduGEO.png!thumbnail)
+![图片](https://uploader.shimo.im/f/Wx1zw8ll6nngg7c1.png!thumbnail)
 
-注：VOTE Token公投提案是社区成员对项目的预审核，非必要步骤（该操作指南可在【项目预审核】中查看）；
+注：VOTE Token公投提案是社区成员对项目的预审核，非必要步骤（该步骤操作指南可在该文档的【项目预审核】中查看）；
 
-提案1、2都由DAO管理委员会申请；此处省略了提案1的执行、提案2的发起；
+提案3为aelf DAO管理委员会选择开发者的步骤，非必要步骤，可根据赏金项目规则决定是否包含该步骤；
 
-提案3为DAO选择开发者的步骤，非必要步骤，可根据赏金项目规则决定是否包含该步骤；
-
-以下步骤不包括非DAO生态的公投提案。
+以下步骤不包括非aelf DAO生态的公投提案。
 
 ### 步骤1：发布
 **1.1 链外发布**
@@ -72,11 +70,11 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 ![图片](https://uploader.shimo.im/f/Tq5oTbcDVX0LzmPi.png!thumbnail)
 
-图1.7-DAO管理委员会申请提案
+图1.7-aelf DAO管理委员会申请提案
 
 * proposal Mode：Association
-* Organization：DAO组织
-* Contract Address：DAO合约
+* Organization：aelf DAO组织
+* Contract Address：aelf DAO合约
 * Method Name：ProposeRewardProject
 * Method Params：GitHub pr链接、Git commit id、预审核提案ID（非必要数据）
 * URL：提供对该提案进行描述的链接，可以是GitHub pr链接（选填）
@@ -89,31 +87,31 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 ### 步骤2：审核项目
 发起pr和提案后，aelf DAO管理委员会其他成员在GitHub和浏览器上收到请求；
 
-2.1 链上审核-提案投票：组织（分别是DAO和生产节点）首先在浏览器中对该提案进行两轮投票（同意/反对/弃权）：
+2.1 链上审核-提案投票：aelf DAO组织（分别是aelf DAO管理委员会和生产节点）首先在浏览器中对该提案进行两轮投票（同意/反对/弃权）：
 
-* 第一轮投票：DAO组织选择项目，对该提案投票（同意/反对/弃权）；
-* 第二轮投票：第一轮投票通过后，需DAO管理委员会执行提案后再申请同样内容议会模型（Parliament）提案；
+* 第一轮投票：aelf DAO组织选择项目，对该提案投票（同意/反对/弃权）；
+* 第二轮投票：第一轮投票通过后，需aelf DAO管理委员会执行提案后再申请同样内容议会模型（Parliament）提案；
 
 申请提案的数据：
 
   * proposal Mode：Parliament
   * Organization：生产节点组织
-  * Contract Address：DAO合约
+  * Contract Address：aelf DAO合约
   * Method Name：ProposeIssueRewardProject
   * Method Params：项目ID、资金申请计划（支持多阶段/多开发者资金计划）
   * URL：提供对该提案进行描述的链接，可以是GitHub pr链接（选填）
   * Expiration Time：选择合适的时间，需保证不影响项目开发，且组织成员有足够的时间投票（建议：7天以内）
 * 第二轮投票：生产节点进行第二轮投票；
 
-投票通过后，由DAO在提案过期前执行提案后，将自动批准项目资金计划；
+投票通过后，由aelf DAO在提案过期前执行提案后，将自动批准项目资金计划；
 
 ![图片](https://uploader.shimo.im/f/0DxzhY7reFwu5dtV.png!thumbnail)
 
 图2.1-投票
 
-2.2 链外审核-GitHub上Merge pr：DAO执行提案后，aelf DAO管理委员会将Merge pr；Merge后，可在[project](https://github.com/DAO-Testnet/Bounties/tree/master/projects/2020)文件夹中查看该项目发布文档；
+2.2 链外审核-GitHub上Merge pr：aelf DAO执行提案后，aelf DAO管理委员会将Merge pr；Merge后，可在[project](https://github.com/DAO-Testnet/Bounties/tree/master/projects/2020)文件夹中查看该项目发布文档；
 
-审核过程中，DAO若对项目申请内容达成新的共识，需对pr进行修改；
+审核过程中，aelf DAO管理委员会若对项目申请内容达成新的共识，需对pr进行修改；
 
 ![图片](https://uploader.shimo.im/f/eoOSIAC6EuE42hpj.png!thumbnail)
 
@@ -149,8 +147,8 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 图3.4-开发者申请提案
 
 * proposal Mode：Association
-* Organization：DAO组织
-* Contract Address：DAO合约
+* Organization：aelf DAO组织
+* Contract Address：aelf DAO合约
 * Method Name：ProposeTakeOverRewardProject 或 ProposeDevelopersAudition（开发者不唯一时使用该方法）
 * Method Params：项目ID、资金申请计划indices
 * URL：提供对该提案进行描述的链接，可以是GitHub pr链接（选填）
@@ -165,7 +163,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 发起pr和提案后，aelf DAO管理委员会其他成员在GitHub和浏览器上收到请求；
 
-提案投票：DAO组织首先在浏览器中对该提案进行投票（同意/反对/弃权）；
+提案投票：aelf DAO组织首先在浏览器中对该提案进行投票（同意/反对/弃权）；
 
 ![图片](https://uploader.shimo.im/f/0DxzhY7reFwu5dtV.png!thumbnail)
 
@@ -206,8 +204,8 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 图4.3-开发者申请提案
 
   * proposal Mode：Association
-  * Organization：DAO组织
-  * Contract Address：DAO合约
+  * Organization：aelf DAO组织
+  * Contract Address：aelf DAO合约
   * Method Name：ProposeDeliver
   * Method Params：项目ID、GitHub pr链接、Git commit ID、申请资金计划index
   * URL：提供对该提案进行描述的链接，可以是GitHub pr链接（选填）
@@ -218,7 +216,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 申请提案后可将提案链接同步到pr的conversation中，以便GitHub与链上信息对应。
 
 ### 步骤5：发放资金
-5.1 链上审核-提案投票：DAO组织在浏览器中对该提案进行审核、投票（同意/反对/弃权）；
+5.1 链上审核-提案投票：aelf DAO组织在浏览器中对该提案进行审核、投票（同意/反对/弃权）；
 
 提案投票通过后，开发者需在提案到期前执行提案，执行成功后将自动发放资金；
 
@@ -239,10 +237,10 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 ---
 
 
-# 项目预审核
-在投资项目/赏金项目中，aelf DAO管理委员在GitHub中提交项目申请pr后，可在正式申请提案前进行预审核，即发起公投模型提案，该操作可以评估该项目的价值，在正式提案中吸引DAO和生产节点注意力；
+# aelf DAO项目预审核
+在投资项目/赏金项目中，aelf DAO管理委员在GitHub中提交项目申请pr后，可在正式申请提案前进行预审核，即发起公投模型提案，该操作可以评估该项目的价值，在正式提案中吸引aelf DAO管理委员会和生产节点注意力；
 
-公投不属于DAO生态内的操作，非必要步骤；
+公投不属于aelf DAO生态内的操作，非必要步骤；
 
 操作步骤如下：
 
@@ -250,11 +248,11 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 ![图片](https://uploader.shimo.im/f/nXmb5fJ0CycRqeIG.png!thumbnail)
 
-图-DAO管理委员会申请提案
+图-aelf DAO管理委员会申请提案
 
 * proposal Mode：Referendum
 * Organization：VOTE Token公投组织
-* Contract Address：DAO合约
+* Contract Address：aelf DAO合约
 * Method Name：项目预审核
 * Method Params：GitHub pr链接、Git commit ID
 * URL：提供对该提案进行描述的链接，可以是GitHub pr链接（选填）
@@ -270,14 +268,14 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 ---
 
 
-# 提案组织创建/修改
-## （1）DAO流程相关组织
-* DAO组织（由DAO合约创建）
+# aelf DAO提案组织创建/修改
+## （1）aelf DAO流程相关组织
+* aelf DAO组织（由aelf DAO合约创建）
 * 生产节点组织
 * 公投组织（使用VOTE Token公投）
-## （2）创建组织步骤
+## （2）aelf DAO创建组织步骤
 ###       1.生产节点组织
-* **作用：**审核DAO投资项目申请/赏金项目发布的第 2 轮投票、为“DAO成员加入/退出”提案投票
+* **作用：**审核aelf DAO投资项目申请/赏金项目发布的第 2 轮投票、为“aelf DAO管理委员会成员加入/退出”提案投票
 * **创建人：**生产节点
 * **组织修改权限：**白名单用户
 * **组织内容：**
@@ -293,8 +291,8 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图：创建组织
 
-### **      2.公投组织**
-* **作用：**DAO生态之外，对项目价值进行预审核的公投提案
+### **2.公投组织**
+* **作用：**aelf DAO生态之外，对项目价值进行预审核的公投提案
 * **创建人：**所有用户
 * **组织修改权限：**白名单用户
 * **组织内容：**
@@ -359,7 +357,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 ```
 * **步骤3** - URL：输入与修改组织相关的URL（选填）；
 * **步骤4** - 到期时间：根据情况设定合适的时间，需保证组织成员在到期前有足够的时间去投票。
-### ###       2.投票和执行
+###       2.投票和执行
 申请提案后，可在提案公示页面查看该提案信息，原有组织成员投票通过、申请人执行提案后，该修改的组织数据才能生效。
 
 
@@ -368,12 +366,14 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 # 我们的社区
 ### GitHub Organization
-GitHub Organization用于投资项目的申请、赏金项目的发布、项目进度跟进、开发成果提交等，在GitHub Organization可以看到DAO社区所有项目的开发情况；社区用户可通过以下链接进入DAO GitHub Organization：
+GitHub Organization用于投资项目的申请、赏金项目的发布、项目进度跟进、开发成果提交等，在GitHub Organization可以看到aelf DAO社区所有项目的开发情况；社区用户可通过以下链接进入DAO GitHub Organization：
 
-aelf Dao Testent: [https://github.com/DAO-Testnet](https://github.com/DAO-Testnet)
+aelf DAO Testnet: [https://github.com/DAO-Testnet](https://github.com/DAO-Testnet)
 
 1. GitHub“投资项目”仓库：[https://github.com/DAO-Testnet/Grants](https://github.com/DAO-Testnet/Grants)
 2. GitHub“赏金项目”仓库：[https://github.com/DAO-Testnet/Bounties](https://github.com/DAO-Testnet/Bounties)
+3. GitHub”DAO文档“仓库：[https://github.com/DAO-Testnet/Docs](https://github.com/DAO-Testnet/Docs)
+
 ### Telegram社群
 aelf全新的去中心化自治社区：saelf governed community Telegram社群
 
