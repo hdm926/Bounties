@@ -1,6 +1,6 @@
 # aelf DAO Bounty Project Instruction
 
-Chinese version tutorial URL: [dao-member-management-zh](https://github.com/DAO-Testnet/Bounties/blob/master/operation-guide-zh.md)
+Chinese version tutorial URL: [operation-guide-zh](https://github.com/DAO-Testnet/Bounties/blob/master/operation-guide-zh.md)
 
 The aelf DAO Management Committee provides community users two ways to participate in aelf’s development, encouraging an active ecosystem: Grant Projects and Bounty Projects:
 
