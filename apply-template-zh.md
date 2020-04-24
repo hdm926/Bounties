@@ -1,6 +1,6 @@
 # 赏金项目开发者申请模板
 
-英文模板可参考：[apply-template](https://github.com/DAO-Testnet/Bounties/blob/master/apply-template-zh.md)
+英文模板可参考：[apply-template](https://github.com/DAO-Testnet/Bounties/blob/master/apply-template.md)
 
 
 为提高aelf主网生态的活跃度，鼓励用户参与aelf生态的建设，aelf DAO将为社区用户提供投资项目、赏金项目两种参与方式：
