@@ -1,5 +1,8 @@
 # 赏金项目发布模板
 
+英文模板可参考：[projects-template](https://github.com/DAO-Testnet/Bounties/blob/master/projects-template.md)
+
+
 为提高aelf主网生态的活跃度，鼓励用户参与aelf生态的建设，aelf DAO将为社区用户提供投资项目、赏金项目两种参与方式：
 
 * [投资项目](https://github.com/DAO-Testnet/Grants)：如果社区用户有好的开发项目为aelf做贡献，可申请投资项目，aelf DAO管理委员会将提供资金和资源帮助，加速项目开发进程；
@@ -9,14 +12,13 @@ aelf DAO管理委员会成员发布[赏金项目](https://github.com/DAO-Testnet
 
 以下内容仅供参考，需根据项目情况提供完整的项目发布文档。
 
-[注] 与该文档相关的详细操作步骤可参考赏金项目开发者操作指南：[operation-guide-zh](https://github.com/DAO-Testnet/Bounties/blob/master/operation-guide-zh.md)
+[注] 与该文档相关的详细操作步骤可参考赏金项目开发者操作指南：[operation-guide](https://github.com/DAO-Testnet/Bounties/blob/master/operation-guide.md)
+
 
 ## Project name
-
 ## Project Description
 * 简要说明项目的设计、功能等；
 * 描述该项目为何有利于aelf生态系统的发展。
-
 ## Awards
 请提供该项目开发的赏金总额、可参与人数，奖金分配规则等。
 
@@ -79,7 +81,6 @@ Milestone 3：
 * 测试报告：描述项目的开发完成情况、建设质量、网络环境、软件运行情况等；
 * 使用说明：提供详细的软件使用说明，以方便社区用户使用；
 * 其它文档；
-
 ## Developer Application Instructions
 开发者想要开发该项目后，需申请开发（需参考[apply-template](https://github.com/DAO-Testnet/Bounties/blob/master/apply-template.md)模板），提交至[赏金项目仓库apply-docs文件夹](https://github.com/DAO-Testnet/Bounties/tree/master/apply-docs)内，并在浏览器申请提案。
 
@@ -91,5 +92,5 @@ Milestone 3：
 ## Additional Information
 如果有其它与该项目开发有关的信息尚未描述，可在此进行补充。
 
-
+---
 如果开发过程中有违约现象，aelf DAO管理委员会将保持最终解释权。
