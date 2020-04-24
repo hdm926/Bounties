@@ -1,4 +1,7 @@
-# aelf DAO赏金项目
+# aelf DAO赏金项目操作指南
+
+英文版教程链接：[operation-guide](https://github.com/DAO-Testnet/Bounties/blob/master/operation-guide.md)
+
 为提高aelf主网生态的活跃度，鼓励用户参与aelf生态的建设，aelf DAO将为社区用户提供投资项目、赏金项目两种参与方式：
 
 * [投资项目](https://github.com/DAO-Testnet/Grants)：如果社区用户有好的开发项目为aelf做贡献，可申请投资项目，aelf DAO管理委员会将提供资金和资源帮助，加速项目开发进程；
@@ -17,7 +20,7 @@ aelf DAO管理委员会是由生产节点选出意向成员成立的链上DAO管
 
 ![图片](https://uploader.shimo.im/f/Wx1zw8ll6nngg7c1.png!thumbnail)
 
-注：VOTE Token公投提案是社区成员对项目的预审核，非必要步骤（该步骤操作指南可在该文档的【项目预审核】中查看）；
+注：VOTE Token公投提案是社区成员对项目的预审核，非必要步骤（该步骤操作指南可在【项目预审核】中查看）；
 
 提案3为aelf DAO管理委员会选择开发者的步骤，非必要步骤，可根据赏金项目规则决定是否包含该步骤；
 
@@ -72,7 +75,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图1.7-aelf DAO管理委员会申请提案
 
-* proposal Mode：Association
+* Proposal Mode：Association
 * Organization：aelf DAO组织
 * Contract Address：aelf DAO合约
 * Method Name：ProposeRewardProject
@@ -94,7 +97,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 申请提案的数据：
 
-  * proposal Mode：Parliament
+  * Proposal Mode：Parliament
   * Organization：生产节点组织
   * Contract Address：aelf DAO合约
   * Method Name：ProposeIssueRewardProject
@@ -103,7 +106,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
   * Expiration Time：选择合适的时间，需保证不影响项目开发，且组织成员有足够的时间投票（建议：7天以内）
 * 第二轮投票：生产节点进行第二轮投票；
 
-投票通过后，由aelf DAO在提案过期前执行提案后，将自动批准项目资金计划；
+投票通过后，由aelf DAO管理委员会成员在提案过期前执行提案后，将自动批准项目资金计划；
 
 ![图片](https://uploader.shimo.im/f/0DxzhY7reFwu5dtV.png!thumbnail)
 
@@ -146,7 +149,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图3.4-开发者申请提案
 
-* proposal Mode：Association
+* Proposal Mode：Association
 * Organization：aelf DAO组织
 * Contract Address：aelf DAO合约
 * Method Name：ProposeTakeOverRewardProject 或 ProposeDevelopersAudition（开发者不唯一时使用该方法）
@@ -203,7 +206,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图4.3-开发者申请提案
 
-  * proposal Mode：Association
+  * Proposal Mode：Association
   * Organization：aelf DAO组织
   * Contract Address：aelf DAO合约
   * Method Name：ProposeDeliver
@@ -233,7 +236,6 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 图5.2-Merge pr
 
 
-
 ---
 
 
@@ -250,7 +252,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图-aelf DAO管理委员会申请提案
 
-* proposal Mode：Referendum
+* Proposal Mode：Referendum
 * Organization：VOTE Token公投组织
 * Contract Address：aelf DAO合约
 * Method Name：项目预审核
@@ -279,11 +281,13 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 * **创建人：**生产节点
 * **组织修改权限：**白名单用户
 * **组织内容：**
+
 | 模型 | 议会模型Parliament Contract | 
-|:----|:----:|
+| --- | --- |
 | 组织成员   | 生产节点 | 
 | 提案白名单   | 所有用户   | 
 | 提案通过阈值   | 同意票数>=50%，反对票数<=50%，弃权票数<=50%，总票数>=50%   | 
+
 
 **创建组织：**
 
@@ -291,17 +295,19 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 
 图：创建组织
 
-### **2.公投组织**
+### 2.公投组织
 * **作用：**aelf DAO生态之外，对项目价值进行预审核的公投提案
 * **创建人：**所有用户
 * **组织修改权限：**白名单用户
 * **组织内容：**
+
 | 模型 | 公投合约模型Referendum Contract | 
-|:----:|:----|
-| 投票Token类型 | VOTE Token（投票后这些token将被锁定，提案过期或被释放才能赎回）   | 
-| 组织成员   | 拥有VOTE Token的所有用户   | 
-| 提案白名单   | 创建组织时输入的用户地址（如果申请人不在白名单内，则需要重新创建一个组织、或联系白名单内的用户修改组织白名单和阈值）   | 
-| 提案通过阈值   | 同意>=0.5%，反对<=0.5%，弃权<=0.5%，总票数>=1%  （该阈值需输入数值，以比例换算对应数值）   |    | 
+| --- | --- |
+| 投票Token类型 | VOTE Token（投票后这些token将被锁定，提案过期或被释放才能赎回） | 
+| 组织成员 | 拥有VOTE Token的所有用户 | 
+| 提案白名单 | 创建组织时输入的用户地址（如果申请人不在白名单内，则需要重新创建一个组织、或联系白名单内的用户修改组织白名单和阈值） | 
+| 提案通过阈值 | 同意>=0.5%，反对<=0.5%，弃权<=0.5%，总票数>=1%  （该阈值需输入数值，以比例换算对应数值） | 
+
 
 创建组织：
 
@@ -357,7 +363,7 @@ aelf DAO管理委员会在GitHub提交pr后，进入[浏览器-提案](https://e
 ```
 * **步骤3** - URL：输入与修改组织相关的URL（选填）；
 * **步骤4** - 到期时间：根据情况设定合适的时间，需保证组织成员在到期前有足够的时间去投票。
-###       2.投票和执行
+### 2.投票和执行
 申请提案后，可在提案公示页面查看该提案信息，原有组织成员投票通过、申请人执行提案后，该修改的组织数据才能生效。
 
 
@@ -373,7 +379,6 @@ aelf DAO Testnet: [https://github.com/DAO-Testnet](https://github.com/DAO-Testne
 1. GitHub“投资项目”仓库：[https://github.com/DAO-Testnet/Grants](https://github.com/DAO-Testnet/Grants)
 2. GitHub“赏金项目”仓库：[https://github.com/DAO-Testnet/Bounties](https://github.com/DAO-Testnet/Bounties)
 3. GitHub”DAO文档“仓库：[https://github.com/DAO-Testnet/Docs](https://github.com/DAO-Testnet/Docs)
-
 ### Telegram社群
 aelf全新的去中心化自治社区：saelf governed community Telegram社群
 
