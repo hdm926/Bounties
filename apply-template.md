@@ -1,6 +1,6 @@
 # Bounty Project: Developer Application Template
 
-For Chinese templates, please refer to: [apply-template-zh](https://github.com/DAO-Testnet/Bounties/blob/master/apply-template.md)
+For Chinese templates, please refer to: [apply-template-zh](https://github.com/DAO-Testnet/Bounties/blob/master/apply-template-zh.md)
 
 The Committee provides community users two ways to participate in aelf’s development, encouraging an active ecosystem: Grant Projects and Bounty Projects:
 
