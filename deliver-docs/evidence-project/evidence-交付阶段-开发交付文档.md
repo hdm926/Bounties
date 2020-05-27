@@ -13,9 +13,6 @@
 ##验证需求：对于第一类用户，输入标识码，返回原文件；  对于第二类用户，输入标识码和原文件，返回哈希比较的结果；
 
 
-
-
-
 #项目开发代码库：
 
 <https://github.com/hdm926/aelf-boilerplate>
@@ -36,7 +33,7 @@
 
 ##描述项目的框架设计：
 
-###系统流程图：![系统流程图](https://github.com/hdm926/aelf-boilerplate/blob/dev/chain/contract/AElf.Contracts.EvidenceContract/%E7%B3%BB%E7%BB%9F%E6%B5%81%E7%A8%8B%E5%9B%BE.png)   
+###系统流程图：![系统流程图](系统流程图.png)   
 
 ###存证流程图：![存证流程图](https://github.com/hdm926/aelf-boilerplate/blob/dev/chain/contract/AElf.Contracts.EvidenceContract/%E5%AD%98%E8%AF%81%E6%B5%81%E7%A8%8B%E5%9B%BE.png)     
 
